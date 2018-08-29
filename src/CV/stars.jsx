@@ -7,7 +7,7 @@ class Stars extends Component {
   render() {
     return (
       <div className="row">
-        <label className="col-sm-2">{this.props.lang}</label>
+        <label className="col-sm-2 font-weight-bold">{this.props.lang}</label>
         <div className="col">{this.getLevel()}</div>
       </div>
     );
@@ -29,7 +29,7 @@ class Stars extends Component {
     return (
       <FontAwesomeIcon
         key={Math.random()}
-        style={{ color: c }}
+        style={{ color: c, marginRight: 10 }}
         icon={faStar}
         inverse
         size="lg"

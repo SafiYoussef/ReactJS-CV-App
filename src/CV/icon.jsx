@@ -7,7 +7,7 @@ class Icon extends Component {
       <div className="col text-center">
         <img src={this.props.imgUrl} />
         <br />
-        <span>{this.props.title}</span>
+        <b>{this.props.title}</b>
       </div>
     );
   }
