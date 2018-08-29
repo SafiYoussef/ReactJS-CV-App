@@ -13,11 +13,15 @@ class Header extends Component {
   render() {
     return (
       <div className="col-xs-12 col-sm-12 col-md-12">
-        <div className="row">
-          <div className="col">
+        <div className="row mb-3 mt-3">
+          <div className="col-sm">
             <div className="row">
-              <div className="col-sm-3 p-0">
-                <img src={this.props.avatar} className="rounded-circle" />
+              <div className="col-3 p-0">
+                <img
+                  src={this.props.avatar}
+                  className="rounded-circle col-sm-12 bg-info p-1"
+                  alt="Profile"
+                />
               </div>
               <div className="col align-self-center">
                 <h4>
@@ -29,26 +33,44 @@ class Header extends Component {
               </div>
             </div>
           </div>
-          <div className="col">
-            <ul className="list-unstyled p-0">
-              <li>
-                <FontAwesomeIcon icon={faEnvelope} /> {this.props.email}
+          <hr className="bg-info col-2 d-sm-none" />
+          <div className="col-sm align-self-center">
+            <ul className="list-unstyled p-0 m-0">
+              <li className="row">
+                <span className="col-1 text-center">
+                  <FontAwesomeIcon icon={faEnvelope} />
+                </span>
+                <div className="col p-sm-0">{this.props.email}</div>{" "}
               </li>
-              <li>
-                <FontAwesomeIcon icon={faMobile} /> {this.props.phone}
+              <li className="row">
+                <span className="col-1 text-center">
+                  <FontAwesomeIcon icon={faMobile} />
+                </span>
+                <div className="col p-sm-0">{this.props.phone}</div>{" "}
               </li>
-              <li>
-                <FontAwesomeIcon icon={faMapMarker} /> {this.props.address}
+              <li className="row">
+                <span className="col-1 text-center">
+                  <FontAwesomeIcon icon={faMapMarker} />
+                </span>
+                <div className="col p-sm-0">{this.props.address}</div>
               </li>
-              <li>
-                <FontAwesomeIcon icon={faAddressCard} /> {this.props.permis}
+              <li className="row">
+                <span className="col-1 text-center">
+                  <FontAwesomeIcon icon={faAddressCard} />
+                </span>
+                <div className="col p-sm-0">{this.props.permis}</div>
               </li>
-              <li>
-                <FontAwesomeIcon icon={faGithub} /> @{this.props.github}
+              <li className="row">
+                <span className="col-1 text-center">
+                  <FontAwesomeIcon icon={faGithub} />
+                </span>
+                <div className="col p-sm-0">@{this.props.github}</div>
               </li>
             </ul>
           </div>
         </div>
+
+        <hr className="bg-info row pt-1" />
       </div>
     );
   }

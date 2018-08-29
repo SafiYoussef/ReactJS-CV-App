@@ -13,7 +13,7 @@ var data = {
     address: "DR JBIRET LOUED BP 529, SIDI SLIMANE, MOROCCO, 14 200.",
     permis: "Driving Licence - B",
     github: "SafiYoussef",
-    avatar: "./img/user.png"
+    avatar: "./img/picture.png"
   },
   sections: [
     {
