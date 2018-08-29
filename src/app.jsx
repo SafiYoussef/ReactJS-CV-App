@@ -188,8 +188,8 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <div className="row">
-          <Header {...data.header} />
+        <Header {...data.header} />
+        <div className="card-columns">
           {data.sections.map(section => (
             <Section key={section.id} {...section} />
           ))}

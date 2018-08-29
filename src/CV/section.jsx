@@ -9,7 +9,7 @@ class Section extends Component {
   state = {};
   render() {
     return (
-      <div className="col-xs-12 col-sm-6 col-md-6">
+      <div>
         <h3>{this.props.title}</h3>
         <div>{this.getContent(this.props.type)}</div>
       </div>

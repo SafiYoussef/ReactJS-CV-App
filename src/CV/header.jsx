@@ -16,10 +16,10 @@ class Header extends Component {
         <div className="row">
           <div className="col">
             <div className="row">
-              <div className="col-sm-3">
+              <div className="col-sm-3 p-0">
                 <img src={this.props.avatar} className="rounded-circle" />
               </div>
-              <div className="col">
+              <div className="col align-self-center">
                 <h4>
                   {this.props.firstName} <b>{this.props.lastName}</b>
                 </h4>
