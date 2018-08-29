@@ -14,12 +14,12 @@ class Header extends Component {
     return (
       <div className="col-xs-12 col-sm-12 col-md-12">
         <div className="row mb-3 mt-3">
-          <div className="col-sm">
+          <div className="col-md">
             <div className="row">
               <div className="col-3 p-0">
                 <img
                   src={this.props.avatar}
-                  className="rounded-circle col-sm-12 bg-info p-1"
+                  className="rounded-circle col-md-12 bg-info p-1"
                   alt="Profile"
                 />
               </div>
@@ -33,38 +33,38 @@ class Header extends Component {
               </div>
             </div>
           </div>
-          <hr className="bg-info col-2 d-sm-none" />
-          <div className="col-sm align-self-center">
+          <hr className="bg-info col-2 d-md-none" />
+          <div className="col-md align-self-center">
             <ul className="list-unstyled p-0 m-0">
               <li className="row">
                 <span className="col-1 text-center">
                   <FontAwesomeIcon icon={faEnvelope} />
                 </span>
-                <div className="col p-sm-0">{this.props.email}</div>{" "}
+                <div className="col">{this.props.email}</div>{" "}
               </li>
               <li className="row">
                 <span className="col-1 text-center">
                   <FontAwesomeIcon icon={faMobile} />
                 </span>
-                <div className="col p-sm-0">{this.props.phone}</div>{" "}
+                <div className="col">{this.props.phone}</div>{" "}
               </li>
               <li className="row">
                 <span className="col-1 text-center">
                   <FontAwesomeIcon icon={faMapMarker} />
                 </span>
-                <div className="col p-sm-0">{this.props.address}</div>
+                <div className="col">{this.props.address}</div>
               </li>
               <li className="row">
                 <span className="col-1 text-center">
                   <FontAwesomeIcon icon={faAddressCard} />
                 </span>
-                <div className="col p-sm-0">{this.props.permis}</div>
+                <div className="col">{this.props.permis}</div>
               </li>
               <li className="row">
                 <span className="col-1 text-center">
                   <FontAwesomeIcon icon={faGithub} />
                 </span>
-                <div className="col p-sm-0">@{this.props.github}</div>
+                <div className="col">@{this.props.github}</div>
               </li>
             </ul>
           </div>
