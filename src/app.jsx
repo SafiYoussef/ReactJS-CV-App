@@ -1,7 +1,19 @@
 import React, { Component } from "react";
 import Section from "./CV/section";
+import Header from "./CV/header";
 
 var data = {
+  header: {
+    firstName: "Youssef",
+    lastName: "SAFI",
+    dateofB: "19th-Feb-2018",
+    placeofB: "Sidi Slimane",
+    email: "youssef.safi.95@gmail.com",
+    phone: "(+212) 07 70 98 29 00",
+    address: "DR JBIRET LOUED BP 529, SIDI SLIMANE, MOROCCO, 14 200.",
+    permis: "Driving Licence - B",
+    avatar: "./img/user.png"
+  },
   sections: [
     {
       id: "s1",
@@ -176,6 +188,7 @@ class App extends Component {
     return (
       <div className="container">
         <div className="row">
+          <Header {...data.header} />
           {data.sections.map(section => (
             <Section key={section.id} {...section} />
           ))}
