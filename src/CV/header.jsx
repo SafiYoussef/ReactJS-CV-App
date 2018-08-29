@@ -6,6 +6,7 @@ import {
   faMobile,
   faAddressCard
 } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 class Header extends Component {
   state = {};
@@ -41,6 +42,9 @@ class Header extends Component {
               </li>
               <li>
                 <FontAwesomeIcon icon={faAddressCard} /> {this.props.permis}
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faGithub} /> @{this.props.github}
               </li>
             </ul>
           </div>

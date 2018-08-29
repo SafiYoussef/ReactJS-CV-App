@@ -12,6 +12,7 @@ var data = {
     phone: "(+212) 07 70 98 29 00",
     address: "DR JBIRET LOUED BP 529, SIDI SLIMANE, MOROCCO, 14 200.",
     permis: "Driving Licence - B",
+    github: "SafiYoussef",
     avatar: "./img/user.png"
   },
   sections: [
