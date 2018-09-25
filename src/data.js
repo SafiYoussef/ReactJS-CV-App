@@ -118,6 +118,14 @@ var data = {
           description: "Internship in Security at ILEM GROUP - Casablanca"
         },
         {
+          title: "20-02-2018 to 20-08-2018 (6 Months)",
+          description: "Internship of Initiation to Scientific Research at ENSA - Kénitra"
+        },
+        {
+          title: "18-09-2016 to 25-07-2018 (1 Y. & 11 M.)",
+          description: "Freelance Web Developer at HCH Professionals - Online"
+        },
+        {
           title: "20-04-2016 to 20-06-2016 (2 Months)",
           description: "End-of-Study Internship at HOW - Rabat"
         },
@@ -139,6 +147,10 @@ var data = {
         {
           title: "Automation of Security Reports",
           description: "Laravel 5, WAF Log files, Linux Bash Scripting"
+        },
+        {
+          title: "Image Processing App",
+          description: "Android, OpenCV"
         },
         {
           title:

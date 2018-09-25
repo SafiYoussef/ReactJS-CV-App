@@ -41,6 +41,8 @@ class Section extends Component {
         return this.props.content.map(c => (
           <Stars key={Math.random()} {...c} />
         ));
+      default:
+        return ""
     }
   }
 }
