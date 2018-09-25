@@ -42,13 +42,13 @@ class Header extends Component {
                   <span className="col-1 text-center">
                     <FontAwesomeIcon icon={faEnvelope} />
                   </span>
-                  <div className="col">{this.props.email}</div>{" "}
+                  <div className="col"><a href={'mailto:'+this.props.email}>{this.props.email}</a></div>{" "}
                 </li>
                 <li className="row">
                   <span className="col-1 text-center">
                     <FontAwesomeIcon icon={faMobile} />
                   </span>
-                  <div className="col">{this.props.phone}</div>{" "}
+                  <div className="col"><a href={'tel:'+this.props.phone}>{this.props.phone}</a></div>{" "}
                 </li>
                 <li className="row">
                   <span className="col-1 text-center">
@@ -66,7 +66,7 @@ class Header extends Component {
                   <span className="col-1 text-center">
                     <FontAwesomeIcon icon={faGithub} />
                   </span>
-                  <div className="col">@{this.props.github}</div>
+                  <div className="col"><a href={'https://github.com/'+this.props.github} target="_blank">@{this.props.github}</a></div>
                 </li>
               </ul>
             </div>
