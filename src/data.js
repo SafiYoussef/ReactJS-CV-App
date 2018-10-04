@@ -2,7 +2,7 @@ var data = {
   header: {
     firstName: "Youssef",
     lastName: "SAFI",
-    dateofB: "19th-Feb-2018",
+    dateofB: "19th-Feb-1995",
     placeofB: "Sidi Slimane",
     email: "youssef.safi.95@gmail.com",
     phone: "(+212) 07 70 98 29 00",
@@ -119,7 +119,8 @@ var data = {
         },
         {
           title: "20-02-2018 to 20-08-2018 (6 Months)",
-          description: "Internship of Initiation to Scientific Research at ENSA - Kénitra"
+          description:
+            "Internship of Initiation to Scientific Research at ENSA - Kénitra"
         },
         {
           title: "18-09-2016 to 25-07-2018 (1 Y. & 11 M.)",
