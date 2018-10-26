@@ -26,16 +26,16 @@ var data = {
           score: 70
         },
         {
-          label: "JavaScript",
-          score: 85
+          label: "Symfony 4",
+          score: 50
         },
         {
           label: "ReactJS",
-          score: 55
+          score: 40
         },
         {
           label: "NodeJS",
-          score: 30
+          score: 40
         },
         {
           label: "Java",
@@ -83,8 +83,7 @@ var data = {
         {
           degree: "Master",
           deration: "2016-2018",
-          description:
-            "2nd year Student Researcher in Security of Information Systems",
+          description: "Master Degree in Security of Information Systems",
           at: "National School of Applied Sciences - Kénitra"
         },
         {
