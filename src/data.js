@@ -2,8 +2,8 @@ var data = {
   header: {
     firstName: "Youssef",
     lastName: "SAFI",
-    dateofB: "19th-Feb-1995",
-    placeofB: "Sidi Slimane",
+    dateofB: "Feb 19th, 1995",
+    placeofB: "Sidi Slimane, Morocco",
     email: "youssef.safi.95@gmail.com",
     phone: "(+212) 07 70 98 29 00",
     address: "DR JBIRET LOUED BP 529, SIDI SLIMANE, MOROCCO, 14 200.",
@@ -18,7 +18,11 @@ var data = {
       title: "SKILLS",
       content: [
         {
-          label: "Laravel 5",
+          label: "Laravel",
+          score: 70
+        },
+        {
+          label: "Symfony",
           score: 80
         },
         {
@@ -26,8 +30,8 @@ var data = {
           score: 70
         },
         {
-          label: "Symfony 4",
-          score: 50
+          label: "Angular",
+          score: 65
         },
         {
           label: "ReactJS",
@@ -35,19 +39,11 @@ var data = {
         },
         {
           label: "NodeJS",
-          score: 40
+          score: 45
         },
         {
           label: "Java",
           score: 60
-        },
-        {
-          label: "C",
-          score: 70
-        },
-        {
-          label: "C++",
-          score: 55
         },
         {
           label: "Android",
@@ -66,8 +62,8 @@ var data = {
           score: 60
         },
         {
-          label: "Photoshop",
-          score: 70
+          label: "Docker",
+          score: 50
         },
         {
           label: "UML / Merise",
@@ -112,6 +108,10 @@ var data = {
       title: "PROFESSIONAL EXPERIENCES",
       type: "exp",
       content: [
+        {
+          title: "From 07-01-2019",
+          description: "Software Engineer at OPSVOX - Casablanca"
+        },
         {
           title: "18-03-2018 to 18-05-2018 (2 Months)",
           description: "Internship in Security at ILEM GROUP - Casablanca"
