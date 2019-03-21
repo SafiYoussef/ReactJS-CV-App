@@ -6,7 +6,7 @@ class EduList extends Component {
     return (
       <div className="col-xs-12">
         <h5>{this.props.degree}</h5>
-        <span class="text-primary">@ {this.props.deration}</span>
+        <span className="text-primary">@ {this.props.deration}</span>
         <p>
           {this.props.description}
           <br />
