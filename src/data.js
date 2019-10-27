@@ -18,39 +18,31 @@ var data = {
       title: "SKILLS",
       content: [
         {
-          label: "Laravel",
-          score: 70
-        },
-        {
-          label: "Symfony",
+          label: "Symfony 4",
           score: 80
         },
         {
-          label: "Bootstap 4",
+          label: "API Platform",
           score: 70
         },
         {
-          label: "Angular",
+          label: "Laravel",
           score: 65
-        },
-        {
-          label: "ReactJS",
-          score: 40
-        },
-        {
-          label: "NodeJS",
-          score: 45
         },
         {
           label: "Java",
           score: 60
         },
         {
-          label: "Android",
+          label: "Bootstap 4",
+          score: 85
+        },
+        {
+          label: "ReactJS",
           score: 80
         },
         {
-          label: "Linux/Unix",
+          label: "Linux",
           score: 65
         },
         {
@@ -58,16 +50,12 @@ var data = {
           score: 75
         },
         {
-          label: "Java EE",
-          score: 60
-        },
-        {
           label: "Docker",
-          score: 50
+          score: 55
         },
         {
-          label: "UML / Merise",
-          score: 65
+          label: "kubernetes",
+          score: 55
         }
       ]
     },
@@ -145,6 +133,10 @@ var data = {
       title: "PROJECTS",
       content: [
         {
+          title: "R&D - Auto Deployment of Open Source Solutions in K8S Cluster",
+          description: "Symfony 4, API Platform, React, Kong, Keycloak, Docker, K8S"
+        },
+        {
           title: "Automation of Security Reports",
           description: "Laravel 5, WAF Log files, Linux Bash Scripting"
         },
@@ -154,7 +146,7 @@ var data = {
         },
         {
           title:
-            "Creation of an education platform and integration of BigBlueButton",
+            "Creation of an Education Platform",
           description:
             "Bootstrap, JSF, Spring DI, PrettyFaces, BigBlueButton, Hibernate"
         },
@@ -165,7 +157,7 @@ var data = {
         },
         {
           title:
-            "Seeting up a portal for Kénitra's Directorate of the Ministry of Culture",
+            "Developing a portal for Kénitra's Directorate of the Ministry of Culture",
           description: "PHP, Bootstrap, Ajax"
         },
         {
