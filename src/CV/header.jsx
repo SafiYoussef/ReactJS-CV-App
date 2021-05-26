@@ -30,7 +30,7 @@ class Header extends Component {
                     {this.props.firstName} <b>{this.props.lastName}</b>
                   </h4>
                   <p>
-                    Born on the {this.props.dateofB} in {this.props.placeofB}.
+                    Né le {this.props.dateofB} à {this.props.placeofB}.
                   </p>
                 </div>
               </div>

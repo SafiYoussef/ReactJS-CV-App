@@ -2,185 +2,184 @@ var data = {
   header: {
     firstName: "Youssef",
     lastName: "SAFI",
-    dateofB: "Feb 19th, 1995",
-    placeofB: "Sidi Slimane, Morocco",
+    dateofB: "19 février 1995",
+    placeofB: "Sidi Slimane, Maroc",
     email: "youssef.safi.95@gmail.com",
     phone: "(+212) 07 70 98 29 00",
-    address: "DR JBIRET LOUED BP 529, SIDI SLIMANE, MOROCCO, 14 200.",
-    permis: "Driving Licence - B",
+    address: "DR JBIRET LOUED BP 529, SIDI SLIMANE, MAROC, 14 200.",
+    permis: "Permis de conduire - B",
     github: "SafiYoussef",
-    avatar: "./img/picture.png"
+    avatar: "./img/picture2.png"
   },
   sections: [
     {
       id: "s1",
       type: "skills",
-      title: "SKILLS",
+      title: "COMPÉTENCES",
       content: [
         {
-          label: "Symfony 4",
+          label: "Java",
+          score: 70
+        },
+        {
+          label: "EDI/EAI",
+          score: 60
+        },
+        {
+          label: "React",
+          score: 90
+        },
+        {
+          label: "Angular",
           score: 80
         },
         {
-          label: "API Platform",
-          score: 70
+          label: "Symfony 4",
+          score: 80
         },
         {
           label: "Laravel",
           score: 65
         },
         {
-          label: "Java",
-          score: 60
-        },
-        {
-          label: "Bootstap 4",
-          score: 85
-        },
-        {
-          label: "ReactJS",
+          label: "API Platform",
           score: 80
         },
         {
           label: "Linux",
-          score: 65
+          score: 70
         },
         {
           label: "Forensics",
-          score: 75
+          score: 51
         },
         {
           label: "Docker",
-          score: 55
+          score: 85
         },
         {
           label: "kubernetes",
-          score: 55
+          score: 65
         }
       ]
     },
     {
       id: "s2",
       type: "edu",
-      title: "EDUCATION",
+      title: "ÉDUCATION",
       content: [
         {
           degree: "Master",
           deration: "2016-2018",
-          description: "Master Degree in Security of Information Systems",
-          at: "National School of Applied Sciences - Kénitra"
+          description: "Master en Sécurité des Systèmes d'Information",
+          at: "École Nationale des Sciences Aappliquées - Kénitra"
         },
         {
-          degree: "Bachelor",
+          degree: "Licence Professionnelle",
           deration: "2015-2016",
           description:
-            "Bachelor Degree in Information Systems and Software Engineering",
-          at: "Faculty of Sciences Dhar El Mahraz - Fez"
+            "L.P en Systèmes d'Information et Génie Logiciel",
+          at: "Faculté des Sciences Dhar El Mahraz - Fès"
         },
         {
-          degree: "University Degree of Technology",
+          degree: "Diplôme Universitaire de Technologie",
           deration: "2013-2015",
-          description: "U.D.T Degree in Administration of Network Systems",
-          at: "Superior School of Technology - Safi"
+          description: "D.U.T en Administration des Systèmes de Réseaux",
+          at: "Ecole Supérieure de Technologie - Safi"
         },
         {
-          degree: "High School",
-          deration: "2015-2016",
-          description: "High School Degree in Mathematical Sciences (option A)",
-          at: "Amir My Abdallah High School - Sidi Slimane"
+          degree: "BACCALAURÉAT",
+          deration: "2013",
+          description: "BACCALAURÉAT en Sciences Mathématiques (option A)",
+          at: "Lycée Amir My Abdallah - Sidi Slimane"
         }
       ]
     },
     {
       id: "s3",
-      title: "PROFESSIONAL EXPERIENCES",
+      title: "EXPÉRIENCES PROFESSIONNELLES",
       type: "exp",
       content: [
         {
-          title: "From 07-01-2019",
-          description: "Software Engineer at OPSVOX - Casablanca"
+          title: "20-01-2020",
+          description: "Auto Entrepreneur / Développeur Full Stack - à distance"
         },
         {
-          title: "18-03-2018 to 18-05-2018 (2 Months)",
-          description: "Internship in Security at ILEM GROUP - Casablanca"
+          title: "07-01-2019 à 13-01-2020",
+          description: "Ingénieur Logiciel chez OPSVOX - Casablanca"
         },
         {
-          title: "20-02-2018 to 20-08-2018 (6 Months)",
-          description:
-            "Internship of Initiation to Scientific Research at ENSA - Kénitra"
+          title: "18-03-2018 à 18-05-2018",
+          description: "Stage en Sécurité chez ILEM GROUP - Casablanca"
         },
         {
-          title: "18-09-2016 to 25-07-2018 (1 Y. & 11 M.)",
-          description: "Freelance Web Developer at HCH Professionals - Online"
+          title: "18-09-2016 à 25-07-2018",
+          description: "Développeur Web Freelance chez HCH Professionals - à distance"
         },
         {
-          title: "20-04-2016 to 20-06-2016 (2 Months)",
-          description: "End-of-Study Internship at HOW - Rabat"
+          title: "20-04-2016 à 20-06-2016",
+          description: "Stage de fin d'études chez HOW - Rabat"
         },
         {
-          title: "20-04-2015 to 13-06-2015 (2 Months)",
-          description: "End-of-Study Internship at CompInfo - Kénitra"
+          title: "20-04-2015 à 13-06-2015",
+          description: "Stage de fin d'études chez CompInfo - Kénitra"
         },
         {
-          title: "01-07-2014 to 30-09-2014 (2 Months)",
-          description: "Introductory Internship at Certifia - Rabat"
+          title: "01-07-2014 à 30-09-2014",
+          description: "Stage d'Initiation chez Certifia - Rabat"
         }
       ]
     },
     {
       id: "s4",
       type: "proj",
-      title: "PROJECTS",
+      title: "PROJETS",
       content: [
         {
-          title: "R&D - Auto Deployment of Open Source Solutions in K8S Cluster",
+          title: "R&D - Déploiement automatique des solutions Open Source dans un cluster K8S",
           description: "Symfony 4, API Platform, React, Kong, Keycloak, Docker, K8S"
         },
         {
-          title: "Automation of Security Reports",
+          title: "Automatisation des rapports de sécurité",
           description: "Laravel 5, WAF Log files, Linux Bash Scripting"
         },
         {
-          title: "Image Processing App",
+          title: "Application Mobile de traitement d'image",
           description: "Android, OpenCV"
         },
         {
           title:
-            "Creation of an Education Platform",
+            "Création d'une plateforme pédagogique",
           description:
             "Bootstrap, JSF, Spring DI, PrettyFaces, BigBlueButton, Hibernate"
         },
         {
           title:
-            "Creation of a portal for the Scientific Local Council of Sidi Slimane",
+            "Création d'un portail pour le Conseil Scientifique Local de Sidi Slimane",
           description: "Bootstrap, Wordpress"
         },
         {
           title:
-            "Developing a portal for Kénitra's Directorate of the Ministry of Culture",
+            "Développement d'un portail pour la Direction du Ministère de la Culture de Kénitra",
           description: "PHP, Bootstrap, Ajax"
         },
         {
-          title: "Website Creation for Safi's Superior School of Technology",
+          title: "Création de site Web pour l'école supérieure de technologie de Safi",
           description: "PHP, Bootstrap, Ajax"
         }
       ]
     },
     {
       id: "s5",
-      title: "LANGUAGES ABILITY",
+      title: "CAPACITÉ LINGUISTIQUE",
       type: "lang",
       content: [
         {
-          lang: "Arabic",
-          level: 5
-        },
-        {
-          lang: "French",
+          lang: "Français",
           level: 3
         },
         {
-          lang: "English",
+          lang: "Anglais",
           level: 4
         }
       ]
@@ -188,23 +187,23 @@ var data = {
     {
       id: "s6",
       type: "hob",
-      title: "HOBBIES",
+      title: "LOISIRS",
       content: [
         {
           imgUrl: "./img/it-security.png",
-          title: "IT Security"
+          title: "Sécurité"
         },
         {
           imgUrl: "./img/music.png",
-          title: "Music"
+          title: "Musique"
         },
         {
           imgUrl: "./img/web-p.png",
-          title: "Programing"
+          title: "Programmation"
         },
         {
           imgUrl: "./img/travel.png",
-          title: "Traveling"
+          title: "Voyages"
         }
       ]
     }
